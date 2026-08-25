@@ -7,7 +7,7 @@ and sampling.
 
 | Notebook | What it builds |
 |---|---|
-| [`DDPM_PyTorch.ipynb`](./DDPM_PyTorch.ipynb) | A standard pixel-space Denoising Diffusion Probabilistic Model (Ho et al., 2020) — linear noise scheduler, a small UNet with timestep embeddings, trained to predict noise directly on raw images. |
+| [`Latent_Diffusion_Model_PyTorch_Low_Compute_.ipynb`](./Latent_Diffusion_Model_PyTorch_Low_Compute_.ipynb) | Same Latent Diffusion model but with low processing parameters to "run" with my broke build. |
 | [`Latent_Diffusion_Model_PyTorch.ipynb`](./Latent_Diffusion_Model_PyTorch.ipynb) | An **unconditional Latent Diffusion Model** — a KL-regularized VAE compresses images into a small latent grid, and the same diffusion machinery runs *inside that latent space* instead of on raw pixels. This is the architecture Stable Diffusion is built on, minus text conditioning. |
 
 ## Why latent diffusion?
