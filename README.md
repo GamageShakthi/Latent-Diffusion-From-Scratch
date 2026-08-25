@@ -71,17 +71,6 @@ Colab T4, but any CUDA GPU (or CPU, slowly) works.
 4. Run all cells top to bottom — VAE trains first (LDM notebook only), then the
    diffusion UNet, then sampling.
 
-## Roadmap to Stable Diffusion
-
-What's *not* here yet, on top of the latent diffusion pipeline above:
-
-- **Text conditioning**: a frozen text encoder (e.g. CLIP) feeding prompt embeddings
-  into the UNet via cross-attention
-- **Classifier-free guidance**: training with a null-prompt branch, then extrapolating
-  away from the unconditional prediction at sampling time
-- **A larger, longer-trained autoencoder and UNet**, trained on much more data
-- **Faster samplers** (DDIM, DPM-Solver) for good samples in 20-50 steps instead of
-  hundreds
 
 ## Acknowledgements
 
